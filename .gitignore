@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+.env*/        # for dotenv files (.env.local, .env.dev, etc.)
+.venv/
+
+
+*.env
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.pytest_cache/
+pytestdebug.log
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# MyPy & Pylint
+.mypy_cache/
+.pyre/
+.pytype/
+pylint-report.txt
+
+# Mac & system files
+.DS_Store
+Thumbs.db
+.env
