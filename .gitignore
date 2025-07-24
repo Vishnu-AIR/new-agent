@@ -18,7 +18,7 @@ venv/
 # VSCode
 .vscode/
 
-.circlepeapp-84d244600eae.json
+.circlepeapp-84d244600eae.json/
 
 # PyCharm
 .idea/
