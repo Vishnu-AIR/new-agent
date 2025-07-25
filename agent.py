@@ -46,12 +46,12 @@ async def entrypoint(ctx: agents.JobContext):
     # )
     session = AgentSession(
             stt = google.STT(
-    model="latest_short",
-    languages="hi-IN",
+    model="latest_long",
+    languages=["hi-IN", "en-US"],
   ),
 # stt=deepgram.STT(
 #             model="telephony",
-           
+#
 #             ),
             # llm=openai.LLM(model="gpt-4o-mini"),
 #             tts = google.TTS(
